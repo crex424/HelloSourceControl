@@ -6,4 +6,8 @@ Console.WriteLine("The loop serves no purpose.");
 for (int i = 1; i <= 10; i++)
 {
     Console.WriteLine($"Number: {i}");
+    if (i == 10)
+    {
+        Console.WriteLine("The loop has ended, Cool stuff");
+    }
 }
